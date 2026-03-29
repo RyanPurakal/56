@@ -1,0 +1,2512 @@
+{
+  "9D520B": {
+    "id": "9D520B",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 0,
+        "playerId": "1c14c20b-1598-4758-a586-7ac0914f72d6",
+        "name": "Player",
+        "reservedUntilMs": 1774571704075
+      }
+    ],
+    "gameState": null
+  },
+  "9C9DFB": {
+    "id": "9C9DFB",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 0,
+        "playerId": "9e73b0ba-2253-48d2-a12c-58e388467620",
+        "name": "Player",
+        "reservedUntilMs": 1774573001386
+      }
+    ],
+    "gameState": null
+  },
+  "EFA6D0": {
+    "id": "EFA6D0",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      {
+        "seat": 0,
+        "playerId": "a96bb78c-a91c-4dce-b8bf-3b0a5a9c7e53",
+        "name": "Player",
+        "socketId": "hHd96gM2DaCwZsRIAAAB"
+      },
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [],
+    "gameState": null
+  },
+  "0B4354": {
+    "id": "0B4354",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      {
+        "seat": 0,
+        "playerId": "71b2cbbb-eba2-494b-8521-1e25fc59da58",
+        "name": "Player",
+        "socketId": "hHd96gM2DaCwZsRIAAAB"
+      },
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [],
+    "gameState": null
+  },
+  "EF21A2": {
+    "id": "EF21A2",
+    "phase": "IN_GAME",
+    "playersBySeat": [
+      {
+        "seat": 0,
+        "playerId": "dbf056de-45f6-4b5e-a8df-5fe4574a3888",
+        "name": "Player",
+        "socketId": "hHd96gM2DaCwZsRIAAAB"
+      },
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 1,
+        "playerId": "73d40d64-0b69-4b07-a072-92d99f7c04f2",
+        "name": "Player",
+        "reservedUntilMs": 1774573001729
+      },
+      {
+        "seat": 2,
+        "playerId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+        "name": "Player3",
+        "reservedUntilMs": 1774573002096
+      },
+      {
+        "seat": 3,
+        "playerId": "54dd0826-c36a-4a13-b408-696a6b12fa75",
+        "name": "Player4",
+        "reservedUntilMs": 1774573002489
+      }
+    ],
+    "gameState": {
+      "players": [
+        {
+          "id": "dbf056de-45f6-4b5e-a8df-5fe4574a3888",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "73d40d64-0b69-4b07-a072-92d99f7c04f2",
+          "name": "Player",
+          "teamId": 1
+        },
+        {
+          "id": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+          "name": "Player3",
+          "teamId": 0
+        },
+        {
+          "id": "54dd0826-c36a-4a13-b408-696a6b12fa75",
+          "name": "Player4",
+          "teamId": 1
+        }
+      ],
+      "dealerId": "dbf056de-45f6-4b5e-a8df-5fe4574a3888",
+      "phase": "PLAY",
+      "deck": [
+        {
+          "uid": "S-9-0",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "D-10-0",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "H-10-0",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "S-J-0",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "S-10-0",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "H-K-0",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "S-J-1",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "S-Q-0",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-J-1",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "C-Q-1",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-9-1",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "D-J-0",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "S-Q-1",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "S-A-0",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "C-K-1",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "D-10-1",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "C-J-1",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "H-A-0",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "D-9-0",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "D-Q-1",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-9-1",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "S-K-0",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "D-Q-0",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-9-1",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "S-A-1",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "H-K-1",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "H-Q-0",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-10-1",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "S-9-1",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "D-K-0",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "C-J-0",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "H-Q-1",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "S-K-1",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "C-10-0",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "D-K-1",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "D-A-1",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "C-10-1",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "C-Q-0",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-J-0",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "C-9-0",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "D-A-0",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "D-J-1",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "S-10-1",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "H-A-1",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "H-9-0",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "C-K-0",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "C-A-0",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "C-A-1",
+          "suit": "C",
+          "rank": "A"
+        }
+      ],
+      "handsByPlayerId": {
+        "dbf056de-45f6-4b5e-a8df-5fe4574a3888": [
+          {
+            "uid": "S-9-0",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "S-10-0",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "H-J-1",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "S-Q-1",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-J-1",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "H-9-1",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "S-A-1",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "S-9-1",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "S-K-1",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "C-10-1",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "H-9-0",
+            "suit": "H",
+            "rank": "9"
+          }
+        ],
+        "73d40d64-0b69-4b07-a072-92d99f7c04f2": [
+          {
+            "uid": "H-K-0",
+            "suit": "H",
+            "rank": "K"
+          },
+          {
+            "uid": "C-Q-1",
+            "suit": "C",
+            "rank": "Q"
+          },
+          {
+            "uid": "S-A-0",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "H-A-0",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "S-K-0",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "H-K-1",
+            "suit": "H",
+            "rank": "K"
+          },
+          {
+            "uid": "D-K-0",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "C-10-0",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "C-Q-0",
+            "suit": "C",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-J-1",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "C-K-0",
+            "suit": "C",
+            "rank": "K"
+          }
+        ],
+        "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83": [
+          {
+            "uid": "H-10-0",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "S-J-1",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "C-K-1",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "D-9-0",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "D-Q-0",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-Q-0",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-J-0",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "D-K-1",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "S-10-1",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "C-A-0",
+            "suit": "C",
+            "rank": "A"
+          }
+        ],
+        "54dd0826-c36a-4a13-b408-696a6b12fa75": [
+          {
+            "uid": "S-J-0",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "S-Q-0",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-J-0",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "D-10-1",
+            "suit": "D",
+            "rank": "10"
+          },
+          {
+            "uid": "D-Q-1",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-9-1",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "H-10-1",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "H-Q-1",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-9-0",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "H-A-1",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "C-A-1",
+            "suit": "C",
+            "rank": "A"
+          }
+        ]
+      },
+      "bidding": {
+        "currentPlayerIndex": 2,
+        "highestBid": {
+          "amount": 56,
+          "trump": "S",
+          "bidderId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83"
+        },
+        "multiplier": 1,
+        "passesSinceLastAction": 3,
+        "history": [
+          {
+            "type": "Bid",
+            "playerId": "73d40d64-0b69-4b07-a072-92d99f7c04f2",
+            "amount": 28,
+            "trump": "H"
+          },
+          {
+            "type": "Bid",
+            "playerId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+            "amount": 29,
+            "trump": "S"
+          },
+          {
+            "type": "Bid",
+            "playerId": "54dd0826-c36a-4a13-b408-696a6b12fa75",
+            "amount": 30,
+            "trump": "S"
+          },
+          {
+            "type": "Bid",
+            "playerId": "dbf056de-45f6-4b5e-a8df-5fe4574a3888",
+            "amount": 31,
+            "trump": "S"
+          },
+          {
+            "type": "Bid",
+            "playerId": "73d40d64-0b69-4b07-a072-92d99f7c04f2",
+            "amount": 32,
+            "trump": "H"
+          },
+          {
+            "type": "Bid",
+            "playerId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+            "amount": 56,
+            "trump": "S"
+          },
+          {
+            "type": "Pass",
+            "playerId": "54dd0826-c36a-4a13-b408-696a6b12fa75"
+          },
+          {
+            "type": "Pass",
+            "playerId": "dbf056de-45f6-4b5e-a8df-5fe4574a3888"
+          },
+          {
+            "type": "Pass",
+            "playerId": "73d40d64-0b69-4b07-a072-92d99f7c04f2"
+          }
+        ]
+      },
+      "play": {
+        "trump": "S",
+        "leaderId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+        "turnPlayerIndex": 3,
+        "currentTrick": {
+          "leaderId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+          "plays": [
+            {
+              "playerId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+              "card": {
+                "uid": "H-J-0",
+                "suit": "H",
+                "rank": "J"
+              }
+            }
+          ]
+        },
+        "completedTricks": [
+          {
+            "leaderId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+            "plays": [
+              {
+                "playerId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+                "card": {
+                  "uid": "D-9-1",
+                  "suit": "D",
+                  "rank": "9"
+                }
+              },
+              {
+                "playerId": "54dd0826-c36a-4a13-b408-696a6b12fa75",
+                "card": {
+                  "uid": "D-A-1",
+                  "suit": "D",
+                  "rank": "A"
+                }
+              },
+              {
+                "playerId": "dbf056de-45f6-4b5e-a8df-5fe4574a3888",
+                "card": {
+                  "uid": "D-A-0",
+                  "suit": "D",
+                  "rank": "A"
+                }
+              },
+              {
+                "playerId": "73d40d64-0b69-4b07-a072-92d99f7c04f2",
+                "card": {
+                  "uid": "D-10-0",
+                  "suit": "D",
+                  "rank": "10"
+                }
+              }
+            ],
+            "winnerId": "6ae1bbcb-79d1-44e1-bca1-ec9c154c0d83",
+            "winningTeamId": 0
+          }
+        ]
+      },
+      "score": null
+    }
+  },
+  "7A1E0A": {
+    "id": "7A1E0A",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      null,
+      {
+        "seat": 1,
+        "playerId": "a92bc26c-7c60-4412-85c1-e54a7494b5fb",
+        "name": "Player2",
+        "socketId": "hL3ycKd0wChyet8NAAAD"
+      },
+      {
+        "seat": 2,
+        "playerId": "a92bc26c-7c60-4412-85c1-e54a7494b5fb",
+        "name": "Player2",
+        "socketId": "hL3ycKd0wChyet8NAAAD"
+      },
+      {
+        "seat": 3,
+        "playerId": "a92bc26c-7c60-4412-85c1-e54a7494b5fb",
+        "name": "Player2",
+        "socketId": "hL3ycKd0wChyet8NAAAD"
+      }
+    ],
+    "reservedSeats": [
+      {
+        "seat": 0,
+        "playerId": "a92bc26c-7c60-4412-85c1-e54a7494b5fb",
+        "name": "Player2",
+        "reservedUntilMs": 1774572694503
+      }
+    ],
+    "gameState": null
+  },
+  "7F76A8": {
+    "id": "7F76A8",
+    "phase": "IN_GAME",
+    "playersBySeat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 0,
+        "playerId": "a6748cde-0a83-4451-a8b0-f14bcfb56251",
+        "name": "Player",
+        "reservedUntilMs": 1774685430460
+      },
+      {
+        "seat": 1,
+        "playerId": "307a2144-2c02-4d24-a196-8f0a831c7bb5",
+        "name": "Player",
+        "reservedUntilMs": 1774685430723
+      },
+      {
+        "seat": 2,
+        "playerId": "8c679e65-1602-48ce-835b-78dd4724c871",
+        "name": "Player",
+        "reservedUntilMs": 1774685430916
+      },
+      {
+        "seat": 3,
+        "playerId": "ae21e089-4e40-4193-9ff9-829902479459",
+        "name": "Player",
+        "reservedUntilMs": 1774685431104
+      }
+    ],
+    "gameState": {
+      "players": [
+        {
+          "id": "a6748cde-0a83-4451-a8b0-f14bcfb56251",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "307a2144-2c02-4d24-a196-8f0a831c7bb5",
+          "name": "Player",
+          "teamId": 1
+        },
+        {
+          "id": "8c679e65-1602-48ce-835b-78dd4724c871",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "ae21e089-4e40-4193-9ff9-829902479459",
+          "name": "Player",
+          "teamId": 1
+        }
+      ],
+      "dealerId": "a6748cde-0a83-4451-a8b0-f14bcfb56251",
+      "phase": "BIDDING",
+      "deck": [
+        {
+          "uid": "D-Q-1",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-9-0",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "S-Q-1",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-A-0",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "H-9-0",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "H-A-1",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "H-K-0",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "C-J-0",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "H-Q-0",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "S-J-0",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "C-10-1",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "C-K-0",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "D-J-0",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "S-K-0",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "H-K-1",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "S-10-1",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "D-A-1",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "D-J-1",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "H-J-0",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "C-A-1",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "D-9-1",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "S-A-1",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "C-9-0",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "S-J-1",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "C-K-1",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "D-10-0",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "D-K-0",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "C-J-1",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "S-9-0",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "H-10-0",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "D-K-1",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "S-K-1",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "S-9-1",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "H-J-1",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "H-9-1",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "C-10-0",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "D-A-0",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "H-Q-1",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-10-1",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "C-Q-0",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "S-10-0",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "S-Q-0",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-Q-0",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-A-0",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "S-A-0",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "D-10-1",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "C-9-1",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "C-Q-1",
+          "suit": "C",
+          "rank": "Q"
+        }
+      ],
+      "handsByPlayerId": {
+        "a6748cde-0a83-4451-a8b0-f14bcfb56251": [
+          {
+            "uid": "D-Q-1",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-9-0",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "H-Q-0",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-J-0",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "D-A-1",
+            "suit": "D",
+            "rank": "A"
+          },
+          {
+            "uid": "D-9-1",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "C-K-1",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "S-9-0",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "S-9-1",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "D-A-0",
+            "suit": "D",
+            "rank": "A"
+          },
+          {
+            "uid": "S-10-0",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "S-A-0",
+            "suit": "S",
+            "rank": "A"
+          }
+        ],
+        "307a2144-2c02-4d24-a196-8f0a831c7bb5": [
+          {
+            "uid": "D-9-0",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "H-A-1",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "S-J-0",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "S-K-0",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "D-J-1",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "S-A-1",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "D-10-0",
+            "suit": "D",
+            "rank": "10"
+          },
+          {
+            "uid": "H-10-0",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "H-J-1",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "H-Q-1",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "S-Q-0",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-10-1",
+            "suit": "D",
+            "rank": "10"
+          }
+        ],
+        "8c679e65-1602-48ce-835b-78dd4724c871": [
+          {
+            "uid": "S-Q-1",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-K-0",
+            "suit": "H",
+            "rank": "K"
+          },
+          {
+            "uid": "C-10-1",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "H-K-1",
+            "suit": "H",
+            "rank": "K"
+          },
+          {
+            "uid": "H-J-0",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "C-9-0",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "D-K-0",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "D-K-1",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "H-9-1",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "H-10-1",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "D-Q-0",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-9-1",
+            "suit": "C",
+            "rank": "9"
+          }
+        ],
+        "ae21e089-4e40-4193-9ff9-829902479459": [
+          {
+            "uid": "C-A-0",
+            "suit": "C",
+            "rank": "A"
+          },
+          {
+            "uid": "C-J-0",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "C-K-0",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "S-10-1",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "C-A-1",
+            "suit": "C",
+            "rank": "A"
+          },
+          {
+            "uid": "S-J-1",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "C-J-1",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "S-K-1",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "C-10-0",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "C-Q-0",
+            "suit": "C",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-A-0",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "C-Q-1",
+            "suit": "C",
+            "rank": "Q"
+          }
+        ]
+      },
+      "bidding": {
+        "currentPlayerIndex": 1,
+        "highestBid": null,
+        "multiplier": 1,
+        "passesSinceLastAction": 0,
+        "history": []
+      },
+      "play": null,
+      "score": null
+    }
+  },
+  "D61AA0": {
+    "id": "D61AA0",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 0,
+        "playerId": "760d0831-55c4-428f-b90e-c35239e155f4",
+        "name": "Player",
+        "reservedUntilMs": 1774685406120
+      }
+    ],
+    "gameState": null
+  },
+  "F7B400": {
+    "id": "F7B400",
+    "phase": "IN_GAME",
+    "playersBySeat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 0,
+        "playerId": "bc776298-d5a2-4246-9479-a4b1698b76c5",
+        "name": "Player",
+        "reservedUntilMs": 1774686765418
+      },
+      {
+        "seat": 1,
+        "playerId": "785c8cfd-e420-418c-9b8a-4e6660da86ba",
+        "name": "Player",
+        "reservedUntilMs": 1774686770822
+      },
+      {
+        "seat": 2,
+        "playerId": "aa6c7156-96d1-4681-8f2a-cd0f273e850e",
+        "name": "Player",
+        "reservedUntilMs": 1774686771278
+      },
+      {
+        "seat": 3,
+        "playerId": "389bdfb6-c81d-4994-a0e4-55123834ece4",
+        "name": "Player",
+        "reservedUntilMs": 1774686779783
+      }
+    ],
+    "gameState": {
+      "players": [
+        {
+          "id": "bc776298-d5a2-4246-9479-a4b1698b76c5",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "785c8cfd-e420-418c-9b8a-4e6660da86ba",
+          "name": "Player",
+          "teamId": 1
+        },
+        {
+          "id": "aa6c7156-96d1-4681-8f2a-cd0f273e850e",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "389bdfb6-c81d-4994-a0e4-55123834ece4",
+          "name": "Player",
+          "teamId": 1
+        }
+      ],
+      "dealerId": "bc776298-d5a2-4246-9479-a4b1698b76c5",
+      "phase": "BIDDING",
+      "deck": [
+        {
+          "uid": "S-J-0",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "C-10-1",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "H-J-0",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "S-K-1",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "D-9-0",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "C-10-0",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "D-K-0",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "S-Q-1",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-A-1",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "H-Q-0",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-9-1",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "C-9-1",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "D-A-0",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "C-K-1",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "D-Q-1",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "S-10-0",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "C-K-0",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "H-A-1",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "H-A-0",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "S-A-1",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "H-Q-1",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-10-0",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "D-Q-0",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-J-1",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "C-Q-1",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-A-0",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "D-J-1",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "H-9-0",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "H-9-1",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "S-Q-0",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-10-1",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "S-K-0",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "H-J-1",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "D-10-0",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "C-9-0",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "D-10-1",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "D-K-1",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "S-10-1",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "C-J-0",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "S-A-0",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "D-A-1",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "S-9-0",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "S-J-1",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "C-Q-0",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-J-0",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "H-K-1",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "H-K-0",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "S-9-1",
+          "suit": "S",
+          "rank": "9"
+        }
+      ],
+      "handsByPlayerId": {
+        "bc776298-d5a2-4246-9479-a4b1698b76c5": [
+          {
+            "uid": "S-J-0",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "D-9-0",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "C-A-1",
+            "suit": "C",
+            "rank": "A"
+          },
+          {
+            "uid": "D-A-0",
+            "suit": "D",
+            "rank": "A"
+          },
+          {
+            "uid": "C-K-0",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "H-Q-1",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-Q-1",
+            "suit": "C",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-9-1",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "H-J-1",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "D-K-1",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "D-A-1",
+            "suit": "D",
+            "rank": "A"
+          },
+          {
+            "uid": "D-J-0",
+            "suit": "D",
+            "rank": "J"
+          }
+        ],
+        "785c8cfd-e420-418c-9b8a-4e6660da86ba": [
+          {
+            "uid": "C-10-1",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "C-10-0",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "H-Q-0",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-K-1",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "H-A-1",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "H-10-0",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "C-A-0",
+            "suit": "C",
+            "rank": "A"
+          },
+          {
+            "uid": "S-Q-0",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-10-0",
+            "suit": "D",
+            "rank": "10"
+          },
+          {
+            "uid": "S-10-1",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "S-9-0",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "H-K-1",
+            "suit": "H",
+            "rank": "K"
+          }
+        ],
+        "aa6c7156-96d1-4681-8f2a-cd0f273e850e": [
+          {
+            "uid": "H-J-0",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "D-K-0",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "D-9-1",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "D-Q-1",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-A-0",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "D-Q-0",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-J-1",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "H-10-1",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "C-9-0",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "C-J-0",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "S-J-1",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "H-K-0",
+            "suit": "H",
+            "rank": "K"
+          }
+        ],
+        "389bdfb6-c81d-4994-a0e4-55123834ece4": [
+          {
+            "uid": "S-K-1",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "S-Q-1",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-9-1",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "S-10-0",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "S-A-1",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "C-J-1",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "H-9-0",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "S-K-0",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "D-10-1",
+            "suit": "D",
+            "rank": "10"
+          },
+          {
+            "uid": "S-A-0",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "C-Q-0",
+            "suit": "C",
+            "rank": "Q"
+          },
+          {
+            "uid": "S-9-1",
+            "suit": "S",
+            "rank": "9"
+          }
+        ]
+      },
+      "bidding": {
+        "currentPlayerIndex": 0,
+        "highestBid": {
+          "amount": 44,
+          "trump": "H",
+          "bidderId": "785c8cfd-e420-418c-9b8a-4e6660da86ba"
+        },
+        "multiplier": 4,
+        "passesSinceLastAction": 0,
+        "history": [
+          {
+            "type": "Bid",
+            "playerId": "785c8cfd-e420-418c-9b8a-4e6660da86ba",
+            "amount": 44,
+            "trump": "H"
+          },
+          {
+            "type": "Double",
+            "playerId": "aa6c7156-96d1-4681-8f2a-cd0f273e850e"
+          },
+          {
+            "type": "Double",
+            "playerId": "389bdfb6-c81d-4994-a0e4-55123834ece4"
+          }
+        ]
+      },
+      "play": null,
+      "score": null
+    }
+  },
+  "41FA5B": {
+    "id": "41FA5B",
+    "phase": "IN_GAME",
+    "playersBySeat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reservedSeats": [
+      {
+        "seat": 3,
+        "playerId": "7c477ebf-d244-4a8e-939c-515a11c360e0",
+        "name": "Player",
+        "reservedUntilMs": 1774687226392
+      },
+      {
+        "seat": 0,
+        "playerId": "31565f60-7178-48c6-8f74-e32cf1c0d68a",
+        "name": "Player",
+        "reservedUntilMs": 1774687228482
+      },
+      {
+        "seat": 1,
+        "playerId": "f3cfcea4-62fb-48c5-b29d-75cd4c02f830",
+        "name": "Player",
+        "reservedUntilMs": 1774687228951
+      },
+      {
+        "seat": 2,
+        "playerId": "bb125d09-4c2f-4a8c-af00-ea4641393f17",
+        "name": "Player",
+        "reservedUntilMs": 1774687229306
+      }
+    ],
+    "gameState": {
+      "players": [
+        {
+          "id": "31565f60-7178-48c6-8f74-e32cf1c0d68a",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "f3cfcea4-62fb-48c5-b29d-75cd4c02f830",
+          "name": "Player",
+          "teamId": 1
+        },
+        {
+          "id": "bb125d09-4c2f-4a8c-af00-ea4641393f17",
+          "name": "Player",
+          "teamId": 0
+        },
+        {
+          "id": "7c477ebf-d244-4a8e-939c-515a11c360e0",
+          "name": "Player",
+          "teamId": 1
+        }
+      ],
+      "dealerId": "31565f60-7178-48c6-8f74-e32cf1c0d68a",
+      "phase": "BIDDING",
+      "deck": [
+        {
+          "uid": "D-9-1",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "C-A-1",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "H-J-0",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "D-Q-1",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-Q-0",
+          "suit": "D",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-9-0",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "S-J-0",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "H-J-1",
+          "suit": "H",
+          "rank": "J"
+        },
+        {
+          "uid": "D-9-0",
+          "suit": "D",
+          "rank": "9"
+        },
+        {
+          "uid": "C-10-0",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "C-J-1",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "H-10-0",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "H-Q-0",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "S-A-1",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "S-Q-0",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-9-0",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "C-10-1",
+          "suit": "C",
+          "rank": "10"
+        },
+        {
+          "uid": "S-Q-1",
+          "suit": "S",
+          "rank": "Q"
+        },
+        {
+          "uid": "C-J-0",
+          "suit": "C",
+          "rank": "J"
+        },
+        {
+          "uid": "H-K-0",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "S-J-1",
+          "suit": "S",
+          "rank": "J"
+        },
+        {
+          "uid": "D-K-0",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "C-9-1",
+          "suit": "C",
+          "rank": "9"
+        },
+        {
+          "uid": "D-K-1",
+          "suit": "D",
+          "rank": "K"
+        },
+        {
+          "uid": "H-K-1",
+          "suit": "H",
+          "rank": "K"
+        },
+        {
+          "uid": "C-Q-1",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-9-1",
+          "suit": "H",
+          "rank": "9"
+        },
+        {
+          "uid": "S-A-0",
+          "suit": "S",
+          "rank": "A"
+        },
+        {
+          "uid": "S-10-0",
+          "suit": "S",
+          "rank": "10"
+        },
+        {
+          "uid": "S-K-1",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "C-A-0",
+          "suit": "C",
+          "rank": "A"
+        },
+        {
+          "uid": "H-A-1",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "S-K-0",
+          "suit": "S",
+          "rank": "K"
+        },
+        {
+          "uid": "D-J-0",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "C-K-1",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "D-A-1",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "D-10-0",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "H-10-1",
+          "suit": "H",
+          "rank": "10"
+        },
+        {
+          "uid": "S-9-1",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "D-10-1",
+          "suit": "D",
+          "rank": "10"
+        },
+        {
+          "uid": "S-9-0",
+          "suit": "S",
+          "rank": "9"
+        },
+        {
+          "uid": "D-J-1",
+          "suit": "D",
+          "rank": "J"
+        },
+        {
+          "uid": "C-K-0",
+          "suit": "C",
+          "rank": "K"
+        },
+        {
+          "uid": "H-Q-1",
+          "suit": "H",
+          "rank": "Q"
+        },
+        {
+          "uid": "H-A-0",
+          "suit": "H",
+          "rank": "A"
+        },
+        {
+          "uid": "C-Q-0",
+          "suit": "C",
+          "rank": "Q"
+        },
+        {
+          "uid": "D-A-0",
+          "suit": "D",
+          "rank": "A"
+        },
+        {
+          "uid": "S-10-1",
+          "suit": "S",
+          "rank": "10"
+        }
+      ],
+      "handsByPlayerId": {
+        "31565f60-7178-48c6-8f74-e32cf1c0d68a": [
+          {
+            "uid": "D-9-1",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "D-Q-0",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-9-0",
+            "suit": "D",
+            "rank": "9"
+          },
+          {
+            "uid": "H-Q-0",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-10-1",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "S-J-1",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "H-K-1",
+            "suit": "H",
+            "rank": "K"
+          },
+          {
+            "uid": "S-10-0",
+            "suit": "S",
+            "rank": "10"
+          },
+          {
+            "uid": "S-K-0",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "D-10-0",
+            "suit": "D",
+            "rank": "10"
+          },
+          {
+            "uid": "S-9-0",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "H-A-0",
+            "suit": "H",
+            "rank": "A"
+          }
+        ],
+        "f3cfcea4-62fb-48c5-b29d-75cd4c02f830": [
+          {
+            "uid": "C-A-1",
+            "suit": "C",
+            "rank": "A"
+          },
+          {
+            "uid": "C-9-0",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "C-10-0",
+            "suit": "C",
+            "rank": "10"
+          },
+          {
+            "uid": "S-A-1",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "S-Q-1",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "D-K-0",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "C-Q-1",
+            "suit": "C",
+            "rank": "Q"
+          },
+          {
+            "uid": "S-K-1",
+            "suit": "S",
+            "rank": "K"
+          },
+          {
+            "uid": "D-J-0",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "H-10-1",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "D-J-1",
+            "suit": "D",
+            "rank": "J"
+          },
+          {
+            "uid": "C-Q-0",
+            "suit": "C",
+            "rank": "Q"
+          }
+        ],
+        "bb125d09-4c2f-4a8c-af00-ea4641393f17": [
+          {
+            "uid": "H-J-0",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "S-J-0",
+            "suit": "S",
+            "rank": "J"
+          },
+          {
+            "uid": "C-J-1",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "S-Q-0",
+            "suit": "S",
+            "rank": "Q"
+          },
+          {
+            "uid": "C-J-0",
+            "suit": "C",
+            "rank": "J"
+          },
+          {
+            "uid": "C-9-1",
+            "suit": "C",
+            "rank": "9"
+          },
+          {
+            "uid": "H-9-1",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "C-A-0",
+            "suit": "C",
+            "rank": "A"
+          },
+          {
+            "uid": "C-K-1",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "S-9-1",
+            "suit": "S",
+            "rank": "9"
+          },
+          {
+            "uid": "C-K-0",
+            "suit": "C",
+            "rank": "K"
+          },
+          {
+            "uid": "D-A-0",
+            "suit": "D",
+            "rank": "A"
+          }
+        ],
+        "7c477ebf-d244-4a8e-939c-515a11c360e0": [
+          {
+            "uid": "D-Q-1",
+            "suit": "D",
+            "rank": "Q"
+          },
+          {
+            "uid": "H-J-1",
+            "suit": "H",
+            "rank": "J"
+          },
+          {
+            "uid": "H-10-0",
+            "suit": "H",
+            "rank": "10"
+          },
+          {
+            "uid": "H-9-0",
+            "suit": "H",
+            "rank": "9"
+          },
+          {
+            "uid": "H-K-0",
+            "suit": "H",
+            "rank": "K"
+          },
+          {
+            "uid": "D-K-1",
+            "suit": "D",
+            "rank": "K"
+          },
+          {
+            "uid": "S-A-0",
+            "suit": "S",
+            "rank": "A"
+          },
+          {
+            "uid": "H-A-1",
+            "suit": "H",
+            "rank": "A"
+          },
+          {
+            "uid": "D-A-1",
+            "suit": "D",
+            "rank": "A"
+          },
+          {
+            "uid": "D-10-1",
+            "suit": "D",
+            "rank": "10"
+          },
+          {
+            "uid": "H-Q-1",
+            "suit": "H",
+            "rank": "Q"
+          },
+          {
+            "uid": "S-10-1",
+            "suit": "S",
+            "rank": "10"
+          }
+        ]
+      },
+      "bidding": {
+        "currentPlayerIndex": 1,
+        "highestBid": null,
+        "multiplier": 1,
+        "passesSinceLastAction": 0,
+        "history": []
+      },
+      "play": null,
+      "score": null
+    }
+  },
+  "020177": {
+    "id": "020177",
+    "phase": "LOBBY",
+    "playersBySeat": [
+      null,
+      null,
+      {
+        "seat": 2,
+        "playerId": "ff9d6591-c794-4226-8883-a35c5d6f44bd",
+        "name": "Phone",
+        "socketId": "FbdCngTDG5yd88oQAAAD"
+      },
+      {
+        "seat": 3,
+        "playerId": "ff9d6591-c794-4226-8883-a35c5d6f44bd",
+        "name": "Phone",
+        "socketId": "FbdCngTDG5yd88oQAAAD"
+      }
+    ],
+    "reservedSeats": [
+      {
+        "seat": 1,
+        "playerId": "da60fba3-2178-4f95-beba-c7896c0ada45",
+        "name": "Player",
+        "reservedUntilMs": 1774740800035
+      }
+    ],
+    "gameState": null
+  }
+}

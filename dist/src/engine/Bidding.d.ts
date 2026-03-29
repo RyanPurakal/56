@@ -1,0 +1,13 @@
+import type { Bid, BiddingState, Double, Move, Pass, Player, PlayerId, TeamId } from "../../shared/src/index.js";
+export declare function biddingCurrentPlayerId(players: ReadonlyArray<Player>, bidding: BiddingState): PlayerId;
+export declare function getTeamId(players: ReadonlyArray<Player>, playerId: PlayerId): TeamId;
+export declare function isBidMove(move: Move): move is Bid;
+export declare function isPassMove(move: Move): move is Pass;
+export declare function isDoubleMove(move: Move): move is Double;
+export declare function canBid(amount: number): boolean;
+export declare function isHigherBid(amount: number, highest: BiddingState["highestBid"]): boolean;
+export declare function canDouble(players: ReadonlyArray<Player>, bidding: BiddingState, byPlayerId: PlayerId): boolean;
+export declare function canRedouble(players: ReadonlyArray<Player>, bidding: BiddingState, byPlayerId: PlayerId): boolean;
+export declare function getValidBiddingMoves(players: ReadonlyArray<Player>, bidding: BiddingState): ReadonlyArray<Bid | Pass | Double>;
+export declare function applyBiddingMove(players: ReadonlyArray<Player>, bidding: BiddingState, move: Bid | Pass | Double): BiddingState;
+export declare function isBiddingComplete(bidding: BiddingState): boolean;

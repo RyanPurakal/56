@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "56",
+    "slug": "56",
+    "scheme": "fiftysix",
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "jsEngine": "hermes",
+    "sdkVersion": "54.0.0",
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
