@@ -1,3 +1,5 @@
+// Decorative ambient particles that float and fade in a loop; used on the RoomScreen background
+// to add visual depth without affecting layout or game logic.
 import { motion } from "motion/react";
 
 interface FloatingParticlesProps {

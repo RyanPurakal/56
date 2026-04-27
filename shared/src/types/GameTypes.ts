@@ -1,3 +1,7 @@
+/**
+ * Core game-state types shared between engine and clients: Card, BiddingState, PlayState,
+ * ScoreSummary, and the top-level GameState that flows through every engine function.
+ */
 import type { PlayerId, TeamId, Player } from "./PlayerTypes.js";
 import type { Bid, Pass, Double } from "./MoveTypes.js";
 

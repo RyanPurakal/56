@@ -1,3 +1,7 @@
+/**
+ * Deck construction and dealing: builds the 48-card double deck (two copies of each suit+rank
+ * distinguished by uid), shuffles with Fisher–Yates, and deals 12 cards per player in seat order.
+ */
 import type { Card, Player, PlayerId, Rng } from "../../shared/src/index.js";
 import { RANK_ORDER, SUITS } from "../../shared/src/index.js";
 

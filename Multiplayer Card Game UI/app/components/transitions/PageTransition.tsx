@@ -1,3 +1,5 @@
+// Wraps a screen's content in a Framer Motion fade+slide transition; apply around any screen
+// component to get consistent route-change animations.
 import { motion } from "motion/react";
 import { ReactNode } from "react";
 

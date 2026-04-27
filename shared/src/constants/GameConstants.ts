@@ -1,3 +1,7 @@
+/**
+ * Immutable game constants: suit list, rank order from highest (J) to lowest (Q), and card-point
+ * values used by the scoring module (J=3, 9=2, A=1, 10=1; K and Q score 0).
+ */
 import type { Rank, Suit } from "../types/GameTypes.js";
 
 export const SUITS: ReadonlyArray<Suit> = ["S", "H", "D", "C"];

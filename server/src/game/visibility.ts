@@ -1,3 +1,7 @@
+/**
+ * State visibility filter: converts a raw GameState into PublicGameState by replacing every
+ * opponent hand with { kind: "hidden"; count } — the viewing player's own hand remains visible.
+ */
 import type { GameState, PlayerId, PublicGameState, VisibleHand } from "../../../shared/src/index.js";
 
 export function filterStateForPlayer(state: GameState, viewerPlayerId: PlayerId): PublicGameState {

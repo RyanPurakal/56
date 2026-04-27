@@ -1,3 +1,5 @@
+// Full-screen overlay shown while the WebSocket connection is being re-established; blocks all
+// interaction until isVisible becomes false (controlled by GameScreen).
 import { motion, AnimatePresence } from "motion/react";
 import { Wifi, WifiOff } from "lucide-react";
 

@@ -1,3 +1,5 @@
+// Face-down card visual with a patterned back design; used by CardDealAnimation and PlayerSeat
+// to represent cards in opponents' hands without revealing their values.
 import { motion } from "motion/react";
 
 interface CardBackProps {

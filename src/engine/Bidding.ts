@@ -1,3 +1,8 @@
+/**
+ * Bidding-phase helpers: computes the set of legal moves for the current bidder, applies a single
+ * Bid/Pass/Double move to a BiddingState, and determines when the auction is closed (contract
+ * established with 3 consecutive passes).
+ */
 import type { Bid, BiddingState, Double, Move, Pass, Player, PlayerId, Suit, TeamId } from "../../shared/src/index.js";
 
 export function biddingCurrentPlayerId(players: ReadonlyArray<Player>, bidding: BiddingState): PlayerId {

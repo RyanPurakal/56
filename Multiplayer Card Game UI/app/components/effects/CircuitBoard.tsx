@@ -1,3 +1,5 @@
+// Decorative SVG circuit-board pattern that animates across the LobbyScreen background; purely
+// visual with no interaction surface.
 import { motion } from "motion/react";
 
 export function CircuitBoard() {

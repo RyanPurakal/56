@@ -1,3 +1,5 @@
+// Entry screen: lets the user create a room (generates a random code) or join one by code; uses
+// mock navigation only — real server integration lives in the mobile app.
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { motion } from "motion/react";

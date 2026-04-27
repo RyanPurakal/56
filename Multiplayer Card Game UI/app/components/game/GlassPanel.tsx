@@ -1,3 +1,5 @@
+// Reusable frosted-glass container: applies the backdrop-blur + semi-transparent background that
+// defines the UI's glass aesthetic; accepts className for layout overrides.
 import { motion } from "motion/react";
 import { ReactNode } from "react";
 

@@ -1,3 +1,7 @@
+/**
+ * Lightweight HMAC-SHA256 reconnection token: encodes `playerId:timestampMs:sig` so a returning
+ * client can prove its identity without a full auth system; set PLAYER_TOKEN_SECRET in env for production.
+ */
 import crypto from "node:crypto";
 
 const SECRET = process.env.PLAYER_TOKEN_SECRET ?? "56-game-dev-secret-key";

@@ -1,3 +1,4 @@
+/** Server-only room primitives: ConnectedPlayer (live socket) and ReservedSeat (60-second reconnection window). */
 export type RoomId = string;
 export type SeatIndex = 0 | 1 | 2 | 3;
 

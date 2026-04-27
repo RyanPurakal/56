@@ -1,3 +1,5 @@
+// Simpler "56" text logo without glitch effects; used on the RoomScreen where a quieter brand
+// mark is appropriate.
 import { motion } from "motion/react";
 
 interface Logo56Props {

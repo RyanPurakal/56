@@ -1,3 +1,5 @@
+// Animates a numeric score from 0 to its target value on mount using Framer Motion's animate;
+// used on the ResultScreen to give scores a counting-up effect.
 import { motion, useMotionValue, useTransform, animate } from "motion/react";
 import { useEffect } from "react";
 

@@ -1,3 +1,5 @@
+// One of four central table slots that displays a played card (or an empty placeholder) at a fixed
+// position; highlights with a glow when its card is the current trick winner.
 import { motion, AnimatePresence } from "motion/react";
 import { PlayingCard } from "./PlayingCard";
 import { Card } from "./types";

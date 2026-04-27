@@ -1,3 +1,4 @@
+// Client-side route table: maps URL patterns to screen components; all four game phases have their own route.
 import { createBrowserRouter } from "react-router";
 import { LobbyScreen } from "./screens/LobbyScreen";
 import { RoomScreen } from "./screens/RoomScreen";

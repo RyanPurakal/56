@@ -1,3 +1,8 @@
+/**
+ * GameRoom data model and lifecycle helpers: creates rooms, maps seat indices to engine Player
+ * objects (seat % 2 determines teamId), and starts a game by calling into the engine (the only
+ * place in the server that invokes createGame/dealCards).
+ */
 import type { GameState, Player } from "../../../shared/src/index.js";
 import { createGame, dealCards } from "../../../src/engine/index.js";
 import type { ConnectedPlayer, ReservedSeat, RoomId, SeatIndex } from "./types.js";

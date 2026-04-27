@@ -1,3 +1,4 @@
+// Figma Make utility: renders an <img> and swaps in a placeholder SVG if the src fails to load.
 import React, { useState } from 'react'
 
 const ERROR_IMG_SRC =

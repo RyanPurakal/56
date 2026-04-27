@@ -1,3 +1,4 @@
+// Barrel re-export for game-domain components; import from here to avoid deep relative paths.
 export { PlayingCard } from "./PlayingCard";
 export type { CardData, Suit, Rank } from "./PlayingCard";
 

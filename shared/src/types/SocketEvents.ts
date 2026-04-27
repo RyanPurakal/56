@@ -1,3 +1,8 @@
+/**
+ * Typed Socket.IO event maps for both directions, plus the room-system payloads and the
+ * visibility-filtered PublicGameState that the server sends to seated players (opponents' hands
+ * replaced by { kind: "hidden"; count }).
+ */
 import type { Suit } from "./GameTypes.js";
 import type { GameState } from "./GameTypes.js";
 

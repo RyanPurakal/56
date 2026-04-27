@@ -1,3 +1,5 @@
+// Active game table: drives the full dealing → bidding → playing → trick-collection cycle using
+// local mock state and simulated AI plays; depends on Framer Motion for all card animations.
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import { motion, AnimatePresence } from "motion/react";

@@ -1,3 +1,8 @@
+/**
+ * Socket.IO event router: translates raw client payloads into engine Move objects, validates them
+ * via getValidMoves, and emits per-player filtered game state after each successful move; all game
+ * logic stays in the engine — this module only handles I/O and authorization (seated-player check).
+ */
 import type { Server, Socket } from "socket.io";
 import type { ClientToServerEvents, Move, ServerToClientEvents } from "../../../shared/src/index.js";
 import { applyMove, getValidMoves } from "../../../src/engine/index.js";

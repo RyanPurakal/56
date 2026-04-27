@@ -1,3 +1,7 @@
+/**
+ * Debounced JSON persistence for room state: writes to server/data/rooms.json at most once per
+ * 500 ms; spectator socket IDs are transient and intentionally excluded from the serialized form.
+ */
 import fs from "node:fs";
 import path from "node:path";
 

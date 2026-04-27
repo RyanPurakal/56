@@ -1,3 +1,5 @@
+// Pre-game waiting room: shows seat occupancy and a copyable room code; player joins are simulated
+// with timeouts — no real WebSocket connection in this reference build.
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import { motion } from "motion/react";

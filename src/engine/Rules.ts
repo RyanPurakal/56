@@ -1,3 +1,8 @@
+/**
+ * Public engine API: `getValidMoves` enumerates legal moves for a player in the current phase;
+ * `applyMove` validates against that set and returns the next immutable GameState, advancing
+ * phase from BIDDING → PLAY → SCORING automatically when phase-completion conditions are met.
+ */
 import type { Bid, Card, CompletedTrick, Double, GameState, Move, Pass, PlayCard, Player, PlayerId } from "../../shared/src/index.js";
 import { applyBiddingMove, getValidBiddingMoves, isBiddingComplete } from "./Bidding.js";
 import { calculateScoreSummary } from "./Scoring.js";

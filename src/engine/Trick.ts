@@ -1,3 +1,7 @@
+/**
+ * Trick-play helpers: enforces follow-suit rules, resolves trick winners (trump beats lead suit
+ * beats off-suit; higher rank wins within the same suit), and produces the next Trick value.
+ */
 import type { Card, Player, PlayerId, Rank, Suit, TeamId, Trick, TrickPlay } from "../../shared/src/index.js";
 import { RANK_ORDER } from "../../shared/src/index.js";
 

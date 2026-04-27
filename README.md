@@ -2,6 +2,40 @@
 
 A four-player partnership trick-taking game (“56” / famous three style rules) with a **Socket.IO** game server, a **shared TypeScript** rules engine, and an **Expo (React Native)** client. The mobile UI follows a cyberpunk / glass aesthetic aligned with the **Multiplayer Card Game UI** reference in this repo (`Multiplayer Card Game UI/`).
 
+## Architecture overview
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        Clients                              │
+│  Mobile app (Expo/React Native)  │  Web UI reference        │
+│  socket.io-client ───────────────┤  (Multiplayer Card       │
+│                                  │   Game UI/, static)      │
+└────────────────────┬─────────────┴──────────────────────────┘
+                     │  Socket.IO  (WebSocket / long-poll)
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   server/  (Node + Express)                 │
+│                                                             │
+│  registerSocketHandlers  ──▶  RoomManager  ──▶  GameRoom   │
+│         │                         │                         │
+│         │ applyMove / getValidMoves│ filterStateForPlayer   │
+│         ▼                         ▼                         │
+│     src/engine/  (pure TS, no I/O)          persistence/   │
+│   Game · Bidding · Trick · Scoring · Rules  store.ts       │
+└─────────────────────────────────────────────────────────────┘
+                     │  shared/  (imported by both sides)
+                     ▼
+          Types · SocketEvents · GameConstants
+```
+
+## Data flow (one round-trip)
+
+1. **Client** emits `make_bid` or `play_card` via Socket.IO.
+2. **`registerSocketHandlers`** resolves the seated player, validates the move via `getValidMoves`, then calls `applyMove` on the current `GameState`.
+3. `applyMove` (in `src/engine/Rules.ts`) returns a new immutable `GameState`; it never mutates.
+4. `RoomManager.upsertRoom` stores the new state in memory and debounces a write to `server/data/rooms.json`.
+5. **`emitGameState`** calls `filterStateForPlayer` for each seated player (hiding opponents' cards) and emits `game_state_update`; spectators receive the full unfiltered state.
+
 ## Repository layout
 
 | Path | Purpose |

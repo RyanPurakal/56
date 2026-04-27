@@ -1,3 +1,5 @@
+// Floating banner that shows "Your Turn" or the current opponent's name during the play phase;
+// animates in and out with AnimatePresence when turn ownership changes.
 import { motion, AnimatePresence } from "motion/react";
 
 interface TurnIndicatorProps {

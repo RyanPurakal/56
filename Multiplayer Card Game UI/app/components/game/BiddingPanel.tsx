@@ -1,3 +1,5 @@
+// Bidding UI panel: lets the local player choose a bid amount (28–56), trump suit, or pass/double;
+// only visible when isVisible=true (i.e. it is this player's turn in the bidding phase).
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
 import { Spade, Heart, Diamond, Club } from "lucide-react";

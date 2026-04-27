@@ -1,3 +1,5 @@
+// Small label+value badge displayed in the top bar of GameScreen (room code, trump suit, tricks);
+// supports a "highlight" variant for important values.
 import { motion } from "motion/react";
 import { ReactNode } from "react";
 

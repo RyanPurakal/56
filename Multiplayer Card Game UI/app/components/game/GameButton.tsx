@@ -1,3 +1,5 @@
+// Themed button with primary / secondary / ghost variants and a Framer Motion tap-scale effect;
+// the single interactive control used across all screens.
 import { motion } from "motion/react";
 import { ReactNode } from "react";
 

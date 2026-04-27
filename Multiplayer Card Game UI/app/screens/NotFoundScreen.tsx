@@ -1,3 +1,4 @@
+// Catch-all 404 screen: shown for any unmatched route; navigates back to the lobby on button click.
 import { useNavigate } from "react-router";
 import { motion } from "motion/react";
 import { Home, AlertCircle } from "lucide-react";

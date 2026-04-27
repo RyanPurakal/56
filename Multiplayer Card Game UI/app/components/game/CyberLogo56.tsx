@@ -1,3 +1,4 @@
+// Animated "56" logotype with glitch and glow effects for the LobbyScreen hero; purely decorative.
 import { motion } from "motion/react";
 
 export function CyberLogo56() {

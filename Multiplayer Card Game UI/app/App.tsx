@@ -1,3 +1,4 @@
+// Application root: mounts the React Router provider and enforces dark mode on the document element.
 import { RouterProvider } from "react-router";
 import { router } from "./routes";
 import { useEffect } from "react";

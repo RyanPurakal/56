@@ -1,3 +1,7 @@
+/**
+ * Game lifecycle: constructs a fresh GameState (DEAL phase) and advances it to BIDDING by shuffling
+ * and dealing the 48-card double deck; the only place outside Deck.ts that touches randomness.
+ */
 import type { Card, GameState, Player, PlayerId, Rng } from "../../shared/src/index.js";
 import { createDeck, dealHands, shuffleDeck } from "./Deck.js";
 

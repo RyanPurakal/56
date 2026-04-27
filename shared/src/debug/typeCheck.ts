@@ -1,3 +1,7 @@
+/**
+ * Compile-time type consistency check: instantiates every shared type to catch assignability
+ * regressions; this file is never imported at runtime and contains no exported symbols.
+ */
 import type {
   Bid,
   BiddingState,

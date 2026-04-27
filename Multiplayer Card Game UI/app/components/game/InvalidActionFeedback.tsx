@@ -1,3 +1,5 @@
+// Transient error toast for illegal moves: animates in from the top, auto-dismisses after 2 s, and
+// exposes a useInvalidActionFeedback hook to manage the message state in parent screens.
 import { motion, AnimatePresence } from "motion/react";
 import { useEffect, useState } from "react";
 

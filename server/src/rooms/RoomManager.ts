@@ -1,3 +1,7 @@
+/**
+ * In-memory room registry with disk persistence: handles room creation (6-char hex code), seat
+ * assignment, 60-second disconnection reservations, and debounced JSON persistence via store.ts.
+ */
 import crypto from "node:crypto";
 import type { GameRoom } from "./GameRoom.js";
 import { activePlayers, createRoom, roomIsFull } from "./GameRoom.js";

@@ -1,3 +1,5 @@
+// Renders a single playing card face-up with suit icon, rank label, and hover/selection animations;
+// exports CardData, Suit, and Rank types used throughout the game layer.
 import { motion } from "motion/react";
 import { Heart, Diamond, Club, Spade } from "lucide-react";
 

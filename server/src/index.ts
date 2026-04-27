@@ -1,3 +1,7 @@
+/**
+ * Process entry point: creates the Express app (single /health endpoint), attaches Socket.IO,
+ * and wires up RoomManager + socket handlers before starting the HTTP server on $PORT (default 3000).
+ */
 import http from "node:http";
 import express from "express";
 import { Server } from "socket.io";

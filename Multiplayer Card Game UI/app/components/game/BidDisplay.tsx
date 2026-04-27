@@ -1,3 +1,5 @@
+// Read-only badge showing the current winning bid (bidder name, amount, trump suit) at a fixed
+// screen position; appears once a bid has been placed and persists through the play phase.
 import { motion, AnimatePresence } from "motion/react";
 import { Spade, Heart, Diamond, Club } from "lucide-react";
 

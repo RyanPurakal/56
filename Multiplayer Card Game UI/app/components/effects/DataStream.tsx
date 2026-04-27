@@ -1,3 +1,5 @@
+// Animated vertical data-stream columns (Matrix-style) used as a background layer on the
+// LobbyScreen; generates random characters on mount and cycles them at a fixed interval.
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 

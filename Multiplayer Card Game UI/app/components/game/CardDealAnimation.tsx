@@ -1,3 +1,5 @@
+// Full-screen dealing animation: fans face-down cards from a central deck to each of the four
+// player positions, then calls onComplete so GameScreen can transition to the bidding phase.
 import { motion, AnimatePresence } from "motion/react";
 import { CardBack } from "./CardBack";
 

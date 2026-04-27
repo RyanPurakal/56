@@ -1,3 +1,5 @@
+// Decorative hexagonal grid overlay for the LobbyScreen background; each hex pulses independently
+// via Framer Motion to create a living-grid effect.
 import { motion } from "motion/react";
 
 export function HexagonGrid() {

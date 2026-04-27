@@ -1,3 +1,5 @@
+// Displays a player's name, ready state, and face-down card count at one of four table positions
+// (top / left / right / bottom); exports PlayerData for use by GameScreen and RoomScreen.
 import { motion } from "motion/react";
 import { User } from "lucide-react";
 

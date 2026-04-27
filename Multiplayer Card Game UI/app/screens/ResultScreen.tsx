@@ -1,3 +1,5 @@
+// Post-game results screen: displays final scores, contract outcome, and per-team stats using
+// hardcoded mock data; AnimatedScore drives the counting animation via Framer Motion.
 import { useNavigate, useParams } from "react-router";
 import { motion } from "motion/react";
 import { Trophy, Award, TrendingUp, Home, RotateCcw } from "lucide-react";

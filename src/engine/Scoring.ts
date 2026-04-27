@@ -1,3 +1,7 @@
+/**
+ * End-of-hand scoring: tallies card-point values from completed tricks and produces a ScoreSummary
+ * that applies the contract multiplier (1/2/4) to the winning or losing team's raw points.
+ */
 import type { Card, CompletedTrick, Player, PlayerId, ScoreSummary, Suit, TeamId } from "../../shared/src/index.js";
 import { CARD_POINTS } from "../../shared/src/index.js";
 
